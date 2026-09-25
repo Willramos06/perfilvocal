@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Perfil Vocal Completo — Studio Sislene Paiva</title>
+<meta name="description" content="Descubra sua classificação vocal, extensão real, timbre e o repertório ideal para a sua voz. Análise profissional por R$ 69,99, sem sair de casa.">
+<meta name="theme-color" content="#0B1634">
+
+<!-- 📷 IMAGEM · og-image.jpg · 1200×630px · miniatura ao compartilhar no WhatsApp e Instagram -->
+<meta property="og:image" content="assets/og-image.jpg">
+<meta property="og:title" content="Você sabe cantar. Mas conhece a sua voz?">
+<meta property="og:description" content="Perfil Vocal Completo por R$ 69,99 — grave um trecho cantando e receba a análise completa da sua voz.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- 📷 IMAGEM · favicon.png · 512×512px -->
+<link rel="icon" href="assets/favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0B1634;--navy-2:#0A2A81;--navy-3:#1C46B5;--deep:#070E22;
+  --nude:#E8D5CC;--nude-2:#F5EBE6;--nude-3:#D4B5A5;
+  --ink:#0F1524;--ink-2:#59627A;--line:#E6E9F0;--bg:#fff;--bg-2:#F9FAFC;
+  --ok:#1F7A5C;--bad:#B03A35;--zap:#25D366;
+  --r:14px;--r-lg:22px;
+  --sh:0 4px 20px rgba(11,22,52,.08);--sh-2:0 18px 50px rgba(11,22,52,.18);
+  --ease:cubic-bezier(.22,1,.36,1);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:96px}
+body{font-family:'Inter',system-ui,sans-serif;font-weight:400;color:var(--ink);background:var(--bg);line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none}
+img{max-width:100%;display:block}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+::selection{background:var(--nude);color:var(--navy)}
+:focus-visible{outline:2.5px solid var(--navy-2);outline-offset:3px;border-radius:6px}
+
+/* TIPOGRAFIA — títulos 700/800/900 · subtítulos 500/600 · textos 200/300/400 */
+h1{font-weight:900;font-size:clamp(32px,6vw,60px);line-height:1.05;letter-spacing:-1.8px}
+h2{font-weight:800;font-size:clamp(26px,4.3vw,43px);line-height:1.12;letter-spacing:-1.1px}
+h3{font-weight:700;font-size:clamp(19px,2.4vw,23px);letter-spacing:-.4px}
+h4{font-weight:600;font-size:17px;letter-spacing:-.2px}
+.lead{font-weight:300;font-size:clamp(15.5px,1.9vw,18px);color:var(--ink-2);line-height:1.7}
+.xlight{font-weight:200}
+.eyebrow{font-weight:700;font-size:11.5px;letter-spacing:3.2px;text-transform:uppercase}
+
+/* PLACEHOLDER DE IMAGEM */
+.ph{background:linear-gradient(135deg,var(--nude-2),var(--nude));position:relative;overflow:hidden}
+.ph::after{content:attr(data-ph);position:absolute;inset:0;display:grid;place-items:center;font-weight:500;font-size:11.5px;letter-spacing:1.6px;text-transform:uppercase;color:var(--navy-2);opacity:.5;text-align:center;padding:14px;pointer-events:none}
+.ph img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover}
+
+/* BARRA DE URGÊNCIA */
+.urg{background:linear-gradient(90deg,var(--navy-2),var(--navy-3));color:#fff;text-align:center;padding:9px 16px;font-weight:500;font-size:12.8px;letter-spacing:-.1px;position:fixed;top:0;left:0;right:0;z-index:95}
+.urg b{font-weight:800;color:var(--nude)}
+#cd{font-variant-numeric:tabular-nums;font-weight:800}
+
+/* HEADER */
+header{position:fixed;top:38px;left:0;right:0;z-index:90;padding:12px 0;transition:.4s var(--ease)}
+header.stuck{background:rgba(11,22,52,.95);backdrop-filter:blur(16px);padding:9px 0}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.logo{display:flex;align-items:center;gap:11px;color:#fff}
+.logo img{height:75px;width:auto;object-fit:contain}
+.logo .fb{font-weight:200;font-size:10px;letter-spacing:2.4px;text-transform:uppercase;opacity:.65;line-height:1.3;display:block}
+.logo .fb b{font-weight:700;font-size:15px;letter-spacing:-.3px;display:block;opacity:1}
+.hd-cta{background:var(--nude);color:var(--navy);font-weight:700;font-size:13px;padding:10px 20px;border-radius:100px;transition:.25s var(--ease);white-space:nowrap}
+.hd-cta:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(232,213,204,.4)}
+
+/* BOTÕES */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:16px 32px;border-radius:100px;font-weight:700;font-size:15.5px;letter-spacing:-.2px;transition:.3s var(--ease);text-align:center}
+.btn-nude{background:var(--nude);color:var(--navy)}
+.btn-nude:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(232,213,204,.45)}
+.btn-zap{background:var(--zap);color:#073B1C}
+.btn-zap:hover{background:#1FBF5A;transform:translateY(-3px);box-shadow:0 14px 34px rgba(37,211,102,.4)}
+.btn-ghost{border:1.5px solid rgba(255,255,255,.35);color:#fff}
+.btn-ghost:hover{border-color:var(--nude);color:var(--nude)}
+.btn-full{width:100%}
+.btn-lg{padding:19px 40px;font-size:17px;font-weight:800}
+.btn:disabled{opacity:.5;cursor:not-allowed;transform:none!important}
+
+/* HERO */
+.hero{position:relative;padding:150px 0 76px;color:#fff;overflow:hidden;background:linear-gradient(155deg,var(--deep) 0%,var(--navy) 42%,var(--navy-2) 100%)}
+.hero-img{position:absolute;inset:0;z-index:0}
+.hero-img img{width:100%;height:100%;object-fit:cover;opacity:.28}
+.hero-img::before{content:"";position:absolute;inset:0;z-index:2;background:linear-gradient(100deg,var(--deep) 12%,rgba(11,22,52,.86) 48%,rgba(10,42,129,.45) 100%)}
+.orb{position:absolute;border-radius:50%;filter:blur(95px);pointer-events:none;z-index:1}
+.orb-a{width:420px;height:420px;background:var(--nude);opacity:.2;top:-140px;right:-100px;animation:fl 17s ease-in-out infinite}
+.orb-b{width:360px;height:360px;background:var(--navy-3);opacity:.35;bottom:-160px;left:-110px;animation:fl 17s ease-in-out -8s infinite}
+@keyframes fl{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-30px,26px) scale(1.1)}}
+.grain{position:absolute;inset:0;opacity:.12;pointer-events:none;z-index:2;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E")}
+.hero .wrap{position:relative;z-index:3}
+.hero-badge{display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(232,213,204,.32);color:var(--nude);padding:8px 19px;border-radius:100px;margin-bottom:24px;backdrop-filter:blur(8px)}
+.hero-badge i{width:6px;height:6px;border-radius:50%;background:var(--nude);animation:pl 2.2s infinite}
+@keyframes pl{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.72)}}
+.hero h1 em{font-style:normal;color:var(--nude)}
+.hero .lead{color:rgba(255,255,255,.78);max-width:560px;margin:20px 0 26px}
+.hero-price{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:26px}
+.hero-price b{font-weight:900;font-size:clamp(38px,6.8vw,56px);letter-spacing:-2.5px;line-height:1}
+.hero-price b sup{font-size:.42em;font-weight:600;vertical-align:super;margin-right:3px}
+.hero-price small{font-weight:300;font-size:14.5px;color:rgba(255,255,255,.65)}
+.hero-ctas{display:flex;gap:13px;flex-wrap:wrap;margin-bottom:30px}
+
+/* PROVA SOCIAL */
+.proof{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:28px}
+.avs{display:flex}
+.avs .av{width:40px;height:40px;border-radius:50%;border:2.5px solid var(--navy);margin-left:-12px;overflow:hidden;background:var(--nude-2)}
+.avs .av:first-child{margin-left:0}
+.avs .av img{width:100%;height:100%;object-fit:cover}
+.proof .tx{font-weight:300;font-size:13.3px;color:rgba(255,255,255,.75);line-height:1.45}
+.proof .tx b{font-weight:700;color:#fff;display:block}
+.proof .st{color:var(--nude);font-size:12px;letter-spacing:1.5px}
+.trust{display:flex;gap:24px;flex-wrap:wrap;font-weight:300;font-size:13.3px;color:rgba(255,255,255,.7)}
+.trust span{display:flex;align-items:center;gap:7px}
+.trust b{font-weight:600;color:var(--nude)}
+
+/* FAIXA DE AUTORIDADE */
+.auth{background:var(--navy-2);color:#fff;padding:28px 0}
+.auth .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center}
+.auth b{display:block;font-weight:900;font-size:clamp(26px,3.6vw,36px);letter-spacing:-1.4px;color:var(--nude);line-height:1}
+.auth small{font-weight:300;font-size:12px;letter-spacing:1.4px;text-transform:uppercase;opacity:.72;margin-top:6px;display:block}
+
+/* SEÇÕES */
+section{padding:clamp(56px,7.5vw,90px) 0}
+.alt{background:var(--bg-2)}
+.mid{text-align:center}
+.mid .lead{margin-left:auto;margin-right:auto;max-width:620px}
+.tag{color:var(--navy-2);margin-bottom:14px;display:block}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition-duration:.01ms!important}.rv{opacity:1;transform:none}}
+
+/* DOR */
+.pains{display:grid;grid-template-columns:repeat(auto-fit,minmax(246px,1fr));gap:16px;margin-top:42px}
+.pain{background:#fff;border:1px solid var(--line);border-radius:var(--r-lg);padding:26px 24px;transition:.35s var(--ease)}
+.pain:hover{transform:translateY(-5px);box-shadow:var(--sh-2);border-color:transparent}
+.pain .e{font-size:25px;display:block;margin-bottom:12px}
+.pain h4{margin-bottom:6px}
+.pain p{font-weight:300;font-size:14.3px;color:var(--ink-2)}
+
+/* ENTREGA */
+.deliver{display:grid;grid-template-columns:1.02fr .98fr;gap:clamp(30px,5vw,58px);align-items:center}
+.dlist{display:grid;gap:12px;margin-top:10px}
+.di{display:flex;gap:14px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:15px 18px;transition:.3s var(--ease)}
+.di:hover{border-color:var(--nude-3);box-shadow:var(--sh);transform:translateX(4px)}
+.di .n{width:28px;height:28px;flex:none;border-radius:9px;background:var(--nude-2);color:var(--navy-2);display:grid;place-items:center;font-weight:800;font-size:12.5px}
+.di b{font-weight:600;font-size:14.6px;display:block;letter-spacing:-.2px}
+.di small{font-weight:300;font-size:13.2px;color:var(--ink-2)}
+
+/* CARD DO PERFIL VOCAL (modelo Mezzo-Soprano) */
+.pv-card{background:linear-gradient(165deg,var(--deep),var(--navy) 55%,var(--navy-2));border-radius:26px;padding:30px 28px 34px;color:#fff;box-shadow:var(--sh-2);position:relative;overflow:hidden;text-align:center}
+.pv-card::after{content:"";position:absolute;inset:10px;border:1px solid rgba(232,213,204,.18);border-radius:18px;pointer-events:none}
+.pv-card>*{position:relative;z-index:2}
+.pv-logo{height:52px;width:auto;margin:0 auto 20px;object-fit:contain}
+.pv-foto{width:132px;height:132px;border-radius:50%;margin:0 auto 16px;border:3px solid var(--nude);overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.pv-foto img{width:100%;height:100%;object-fit:cover}
+.pv-nome{font-weight:800;font-size:23px;letter-spacing:-.6px;margin-bottom:3px}
+.pv-cls{font-weight:200;font-size:11px;letter-spacing:3.2px;text-transform:uppercase;color:var(--nude);margin-bottom:20px}
+.pv-ext{background:rgba(232,213,204,.1);border:1px solid rgba(232,213,204,.24);border-radius:var(--r);padding:14px;margin-bottom:18px}
+.pv-ext small{display:block;font-weight:300;font-size:10.5px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.55);margin-bottom:4px}
+.pv-ext b{font-weight:800;font-size:22px;letter-spacing:-.6px;color:var(--nude)}
+.pv-tags{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:18px}
+.pv-tags span{background:var(--nude);color:var(--navy);font-weight:600;font-size:12px;padding:6px 15px;border-radius:100px}
+.pv-desc{font-weight:300;font-size:13.2px;line-height:1.65;color:rgba(255,255,255,.75);text-align:left}
+.pv-foot{font-weight:200;font-size:10.5px;color:rgba(255,255,255,.4);margin-top:18px;letter-spacing:1.2px;text-transform:uppercase}
+
+/* COMO FUNCIONA */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:44px}
+.stp{text-align:center;position:relative}
+.stp .c{width:52px;height:52px;margin:0 auto 15px;border-radius:50%;background:var(--navy-2);color:#fff;display:grid;place-items:center;font-weight:800;font-size:19px;box-shadow:0 8px 22px rgba(10,42,129,.28)}
+.stp h4{margin-bottom:6px}
+.stp p{font-weight:300;font-size:13.7px;color:var(--ink-2)}
+.stp::after{content:"";position:absolute;top:26px;left:calc(50% + 34px);right:calc(-50% + 34px);height:1.5px;background:var(--line)}
+.stp:last-child::after{display:none}
+.video-box{max-width:760px;margin:42px auto 0;background:#fff;border:1.5px dashed var(--nude-3);border-radius:var(--r-lg);padding:30px;text-align:left;display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:start}
+.video-box .ic{width:54px;height:54px;border-radius:16px;background:var(--nude-2);display:grid;place-items:center;font-size:24px;flex:none}
+.video-box h4{margin-bottom:8px}
+.video-box p{font-weight:300;font-size:14.2px;color:var(--ink-2);margin-bottom:13px}
+.video-box ul{list-style:none;display:grid;gap:8px}
+.video-box li{font-weight:300;font-size:13.7px;color:var(--ink-2);display:flex;gap:10px}
+.video-box li b{font-weight:600;color:var(--ink)}
+
+/* ANTES × DEPOIS */
+.ba{display:grid;grid-template-columns:1fr auto 1fr;gap:20px;align-items:center;margin-top:42px}
+.bac{border-radius:var(--r-lg);padding:28px 26px;border:1px solid var(--line)}
+.bac.a{background:#fff}
+.bac.d{background:linear-gradient(160deg,var(--navy),var(--navy-2));color:#fff;border-color:transparent;box-shadow:var(--sh-2)}
+.bac h4{margin-bottom:16px;font-weight:700;font-size:13px;letter-spacing:2.4px;text-transform:uppercase}
+.bac.a h4{color:var(--bad)}
+.bac.d h4{color:var(--nude)}
+.bac ul{list-style:none;display:grid;gap:11px}
+.bac li{font-weight:300;font-size:14.2px;display:flex;gap:10px;align-items:flex-start}
+.bac.a li{color:var(--ink-2)}
+.bac.d li{color:rgba(255,255,255,.82)}
+.ba-ar{font-size:26px;color:var(--nude-3)}
+
+/* GALERIA */
+.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:40px}
+.gal .g{aspect-ratio:1;border-radius:var(--r);overflow:hidden;transition:.35s var(--ease)}
+.gal .g:hover{transform:scale(1.03);box-shadow:var(--sh-2)}
+.gal .g:nth-child(1),.gal .g:nth-child(6){grid-row:span 2;aspect-ratio:1/2.06}
+
+/* DEPOIMENTOS */
+.depos{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:42px}
+.dep{background:#fff;border:1px solid var(--line);border-radius:var(--r-lg);padding:28px;text-align:left;transition:.35s var(--ease)}
+.dep:hover{transform:translateY(-5px);box-shadow:var(--sh-2)}
+.dep .st{color:var(--nude-3);font-size:13px;letter-spacing:2.5px;margin-bottom:12px}
+.dep p{font-weight:300;font-size:14.6px;color:var(--ink-2);font-style:italic;margin-bottom:20px;line-height:1.7}
+.dep .who{display:flex;align-items:center;gap:12px}
+.dep .who .pf{width:46px;height:46px;border-radius:50%;overflow:hidden;flex:none;background:var(--nude-2)}
+.dep .who b{font-weight:600;font-size:14.3px;display:block}
+.dep .who small{font-weight:300;font-size:12.3px;color:var(--ink-2)}
+
+/* PARA QUEM */
+.who-g{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin-top:42px}
+.wc{background:#fff;border:1px solid var(--line);border-radius:var(--r-lg);padding:26px;transition:.35s var(--ease)}
+.wc:hover{transform:translateY(-5px);box-shadow:var(--sh-2)}
+.wc .e{font-size:24px;display:block;margin-bottom:11px}
+.wc h4{margin-bottom:5px}
+.wc p{font-weight:300;font-size:14px;color:var(--ink-2)}
+
+/* PREÇO */
+.price-box{max-width:520px;margin:40px auto 0;background:linear-gradient(160deg,var(--deep),var(--navy-2));border:1.5px solid var(--nude-3);border-radius:28px;padding:42px 34px;color:#fff;text-align:center;box-shadow:var(--sh-2);position:relative;overflow:hidden}
+.price-box>*{position:relative;z-index:2}
+.pb-badge{display:inline-block;background:var(--nude);color:var(--navy);font-weight:800;font-size:10.5px;letter-spacing:1.8px;text-transform:uppercase;padding:7px 17px;border-radius:100px;margin-bottom:18px}
+.pb-val{font-weight:900;font-size:clamp(48px,9.5vw,72px);letter-spacing:-3.5px;line-height:1;color:var(--nude)}
+.pb-val sup{font-size:.36em;font-weight:600;vertical-align:super;margin-right:4px}
+.pb-sub{font-weight:300;font-size:14.5px;color:rgba(255,255,255,.68);margin-top:8px}
+.pb-list{display:grid;gap:10px;margin:24px 0;text-align:left}
+.pb-list li{display:flex;gap:11px;font-weight:300;font-size:14.2px;color:rgba(255,255,255,.85);list-style:none}
+.pb-list li b{color:var(--nude);font-weight:700;flex:none}
+.pb-note{font-weight:300;font-size:12.3px;color:rgba(255,255,255,.55);margin-top:14px}
+.upsell{background:rgba(232,213,204,.12);border:1px dashed rgba(232,213,204,.35);border-radius:var(--r);padding:16px;margin-top:20px;font-weight:300;font-size:13.4px;color:rgba(255,255,255,.85)}
+.upsell b{font-weight:700;color:var(--nude)}
+.selo{width:92px;margin:22px auto 0}
+
+/* FORMULÁRIO */
+.form-card{max-width:680px;margin:42px auto 0;background:#fff;border:1px solid var(--line);border-radius:26px;padding:clamp(26px,4vw,42px);box-shadow:var(--sh-2);text-align:left}
+.fgrid{display:grid;gap:18px}
+.f2{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.fld label{display:block;font-weight:600;font-size:12.3px;letter-spacing:.5px;text-transform:uppercase;color:var(--ink-2);margin-bottom:7px}
+.fld input,.fld select,.fld textarea{width:100%;padding:14px 16px;border:1.5px solid var(--line);border-radius:var(--r);font-family:inherit;font-weight:400;font-size:15px;color:var(--ink);background:#fff;transition:.22s}
+.fld input::placeholder,.fld textarea::placeholder{font-weight:300;color:#9AA3B5}
+.fld input:focus,.fld select:focus,.fld textarea:focus{outline:none;border-color:var(--navy-2);box-shadow:0 0 0 4px rgba(10,42,129,.12)}
+.fld.err input,.fld.err select{border-color:var(--bad);box-shadow:0 0 0 4px rgba(176,58,53,.09)}
+.emsg{display:none;color:var(--bad);font-weight:500;font-size:12.3px;margin-top:6px}
+.err .emsg{display:block}
+textarea{resize:vertical;min-height:84px}
+.hint{font-weight:300;font-size:12.3px;color:var(--ink-2);margin-top:6px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:9px 16px;border:1.5px solid var(--line);border-radius:100px;font-weight:500;font-size:13.3px;cursor:pointer;background:#fff;transition:.2s var(--ease);user-select:none}
+.chip:hover{border-color:var(--navy-2);transform:translateY(-1px)}
+.chip.on{background:var(--navy-2);color:#fff;border-color:var(--navy-2);font-weight:600}
+.form-sum{background:var(--nude-2);border-radius:var(--r);padding:18px 20px;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}
+.form-sum span{font-weight:500;font-size:14px}
+.form-sum b{font-weight:900;font-size:25px;letter-spacing:-1px;color:var(--navy-2)}
+.chk{display:flex;gap:11px;align-items:flex-start;font-weight:300;font-size:13.3px;color:var(--ink-2);cursor:pointer;line-height:1.55}
+.chk input{width:19px;height:19px;flex:none;margin-top:2px;accent-color:var(--navy-2)}
+.chk b{font-weight:600;color:var(--ink)}
+
+/* FAQ */
+.faq{max-width:760px;margin:40px auto 0;display:grid;gap:11px}
+.fq{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;text-align:left}
+.fq summary{padding:19px 22px;font-weight:600;font-size:15px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center}
+.fq summary::-webkit-details-marker{display:none}
+.fq summary::after{content:"+";font-weight:300;font-size:23px;color:var(--navy-2);transition:.3s}
+.fq[open] summary::after{transform:rotate(45deg)}
+.fq p{padding:0 22px 20px;font-weight:300;font-size:14.2px;color:var(--ink-2)}
+
+/* FINAL */
+.final{color:#fff;text-align:center;position:relative;overflow:hidden;background:linear-gradient(155deg,var(--deep),var(--navy-2))}
+.final-img{position:absolute;inset:0;z-index:0}
+.final-img img{width:100%;height:100%;object-fit:cover;opacity:.2}
+.final .wrap{position:relative;z-index:3}
+.final .lead{color:rgba(255,255,255,.75);margin-bottom:28px}
+
+/* FOOTER */
+footer{background:var(--navy);color:rgba(255,255,255,.6);padding:42px 0 32px;font-weight:300;font-size:13.2px;text-align:center}
+.f-logo{height:48px;width:auto;margin:0 auto 16px;object-fit:contain;opacity:.9}
+.sig{display:inline-flex;align-items:center;gap:11px;padding:8px 17px 8px 9px;border-radius:100px;border:1px solid rgba(255,255,255,.14);transition:.3s var(--ease);margin-top:18px}
+.sig:hover{border-color:var(--nude);background:rgba(232,213,204,.08)}
+.sig .wrb{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--nude),var(--nude-3));color:var(--navy);display:grid;place-items:center;font-weight:800;font-size:10.5px;letter-spacing:-.4px;flex:none}
+.sig em{font-style:normal;font-weight:300;font-size:10px;letter-spacing:1.3px;text-transform:uppercase;opacity:.6;display:block;line-height:1.3;text-align:left}
+.sig b{font-weight:600;font-size:13px;color:var(--nude);display:block;text-align:left}
+
+/* FLUTUANTES */
+.zap-float{position:fixed;right:18px;bottom:88px;z-index:94;width:56px;height:56px;border-radius:50%;background:var(--zap);display:grid;place-items:center;box-shadow:0 8px 26px rgba(37,211,102,.45);transition:.3s var(--ease)}
+.zap-float:hover{transform:scale(1.08)}
+.zap-float svg{width:29px;height:29px;fill:#fff}
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:95;background:rgba(255,255,255,.97);backdrop-filter:blur(14px);border-top:1px solid var(--line);padding:11px 18px;display:none;align-items:center;justify-content:space-between;gap:12px;box-shadow:0 -6px 24px rgba(11,22,52,.1)}
+.sticky .p{font-weight:900;font-size:19px;letter-spacing:-.8px;color:var(--navy-2);line-height:1}
+.sticky .p small{display:block;font-weight:300;font-size:10.5px;color:var(--ink-2);letter-spacing:0}
+.sticky .btn{padding:13px 22px;font-size:14.5px}
+#toasts{position:fixed;bottom:156px;right:18px;z-index:9000;display:grid;gap:10px;max-width:330px}
+.toast{background:#fff;border:1px solid var(--line);border-left:3px solid var(--ok);border-radius:var(--r);padding:13px 17px;box-shadow:var(--sh-2);animation:ti .4s var(--ease)}
+.toast.err{border-left-color:var(--bad)}
+.toast b{font-weight:600;font-size:13.5px;display:block}
+.toast small{font-weight:300;font-size:12.5px;color:var(--ink-2)}
+@keyframes ti{from{opacity:0;transform:translateX(50px)}to{opacity:1;transform:none}}
+
+@media(max-width:900px){
+  .deliver,.steps,.f2,.video-box,.depos{grid-template-columns:1fr}
+  .ba{grid-template-columns:1fr}
+  .ba-ar{transform:rotate(90deg);justify-self:center}
+  .auth .wrap{grid-template-columns:1fr 1fr;gap:24px}
+  .gal{grid-template-columns:1fr 1fr}
+  .gal .g:nth-child(1),.gal .g:nth-child(6){grid-row:auto;aspect-ratio:1}
+  .stp::after{display:none}
+  .steps{gap:26px}
+  .sticky{display:flex}
+  body{padding-bottom:70px}
+  .zap-float{bottom:82px}
+  #toasts{bottom:150px}
+}
+</style>
+</head>
+<body>
+
+<div class="urg">🔥 Lançamento: <b>as 30 primeiras análises</b> saem por R$ 69,99 · encerra em <span id="cd">72:00:00</span></div>
+
+<header id="hd">
+  <div class="wrap">
+    <a href="#top" class="logo">
+      <!-- 📷 IMAGEM · assets/logo.png · altura 120px · PNG com fundo transparente (versão clara) -->
+      <img src="assets/logo.png" alt="Studio Sislene Paiva" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+      <span class="fb" style="display:none">Studio<b>Sislene Paiva</b></span>
+    </a>
+    <a href="#formulario" class="hd-cta">Quero meu Perfil</a>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <!-- 📷 IMAGEM · assets/hero.jpg · 1920×1200px · pessoa cantando, luz quente, espaço à esquerda -->
+  <div class="hero-img"><img src="assets/hero.jpg" alt="" onerror="this.parentElement.style.display='none'"></div>
+  <div class="orb orb-a"></div><div class="orb orb-b"></div><div class="grain"></div>
+  <div class="wrap">
+    <span class="hero-badge eyebrow"><i></i>Análise profissional de voz</span>
+    <h1>Você sabe cantar.<br>Mas conhece <em>a sua voz</em>?</h1>
+    <p class="lead">A maioria das pessoas canta a vida inteira sem saber qual é o próprio naipe, até onde vai a extensão real ou quais músicas foram feitas para o seu timbre. Grave um trecho cantando e receba a análise completa da sua voz.</p>
+
+    <div class="hero-price">
+      <b><sup>R$</sup>69,99</b>
+      <small>pagamento único · sem mensalidade · sem compromisso</small>
+    </div>
+
+    <div class="hero-ctas">
+      <a href="#formulario" class="btn btn-nude btn-lg">Quero descobrir minha voz</a>
+      <a href="#entrega" class="btn btn-ghost">Ver o que recebo</a>
+    </div>
+
+    <div class="proof">
+      <div class="avs">
+        <!-- 📷 IMAGENS · assets/aluno-1.jpg a aluno-4.jpg · 200×200px · rostos de alunos -->
+        <div class="av ph" data-ph=""><img src="assets/aluno-1.jpg" alt="" onerror="this.remove()"></div>
+        <div class="av ph" data-ph=""><img src="assets/aluno-2.jpg" alt="" onerror="this.remove()"></div>
+        <div class="av ph" data-ph=""><img src="assets/aluno-3.jpg" alt="" onerror="this.remove()"></div>
+        <div class="av ph" data-ph=""><img src="assets/aluno-4.jpg" alt="" onerror="this.remove()"></div>
+      </div>
+      <div class="tx">
+        <div class="st">★★★★★</div>
+        <b>+300 vozes analisadas</b>
+        no Studio Sislene Paiva
+      </div>
+    </div>
+
+    <div class="trust">
+      <span>⏱ Entrega em até <b>5 dias úteis</b></span>
+      <span>📱 Tudo pelo <b>WhatsApp</b></span>
+      <span>🌎 Para <b>todo o Brasil</b></span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AUTORIDADE ============ -->
+<div class="auth">
+  <div class="wrap">
+    <div><b>+300</b><small>Vozes analisadas</small></div>
+    <div><b>+10</b><small>Anos de estúdio</small></div>
+    <div><b>5 dias</b><small>Prazo de entrega</small></div>
+    <div><b>4,9</b><small>Avaliação média</small></div>
+  </div>
+</div>
+
+<!-- ============ DOR ============ -->
+<section>
+  <div class="wrap mid">
+    <span class="tag eyebrow">Talvez você se reconheça</span>
+    <h2>Cantar sem saber quem você é <span class="xlight">custa caro</span></h2>
+    <p class="lead">Não em dinheiro. Em anos forçando uma voz que nunca foi a sua.</p>
+    <div class="pains">
+      <div class="pain rv"><span class="e">😮‍💨</span><h4>Você cansa rápido</h4><p>Termina o ensaio rouco e acha que é falta de preparo. Quase sempre é tessitura errada.</p></div>
+      <div class="pain rv"><span class="e">🎚️</span><h4>O tom nunca serve</h4><p>Descobre que a música está alta demais só quando já está no palco, na frente de todo mundo.</p></div>
+      <div class="pain rv"><span class="e">🤷</span><h4>Não sabe seu naipe</h4><p>Já ouviu que é soprano, já ouviu que é contralto. Nunca ouviu de quem realmente analisou.</p></div>
+      <div class="pain rv"><span class="e">🔁</span><h4>Estuda sem direção</h4><p>Faz exercícios aleatórios da internet, sem saber se servem ou se atrapalham a sua voz.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ENTREGA + CARD DO PERFIL ============ -->
+<section class="alt" id="entrega">
+  <div class="wrap deliver">
+    <div class="rv">
+      <span class="tag eyebrow">O que você recebe</span>
+      <h2>Um raio-X completo <span class="xlight">do seu instrumento</span></h2>
+      <p class="lead" style="margin-top:14px">Análise feita pessoalmente por Sislene Paiva a partir da sua gravação, entregue em documento personalizado no seu e-mail e WhatsApp.</p>
+      <div class="dlist">
+        <div class="di"><span class="n">1</span><div><b>Classificação vocal</b><small>Seu naipe real — soprano, mezzo, contralto, tenor, barítono ou baixo</small></div></div>
+        <div class="di"><span class="n">2</span><div><b>Extensão completa</b><small>Da nota mais grave à mais aguda que sua voz alcança hoje</small></div></div>
+        <div class="di"><span class="n">3</span><div><b>Tessitura confortável</b><small>A região onde você canta sem esforço e sem risco</small></div></div>
+        <div class="di"><span class="n">4</span><div><b>Características do timbre</b><small>A cor e a identidade sonora que só a sua voz tem</small></div></div>
+        <div class="di"><span class="n">5</span><div><b>Pontos fortes e de atenção</b><small>O que já é qualidade e o que precisa de cuidado</small></div></div>
+        <div class="di"><span class="n">6</span><div><b>5 músicas ideais</b><small>Repertório escolhido para o seu timbre, com o tom sugerido</small></div></div>
+        <div class="di"><span class="n">7</span><div><b>3 exercícios personalizados</b><small>Para começar a evoluir já na semana seguinte</small></div></div>
+      </div>
+    </div>
+
+    <div class="pv-card rv">
+      <!-- 📷 IMAGEM · assets/logo.png · mesma logo do header -->
+      <img class="pv-logo" src="assets/logo.png" alt="Studio Sislene Paiva" onerror="this.style.display='none'">
+      <!-- 📷 IMAGEM · assets/perfil-exemplo.jpg · 400×400px · foto do aluno, rosto centralizado -->
+      <div class="pv-foto ph" data-ph="Foto"><img src="assets/perfil-exemplo.jpg" alt="" onerror="this.remove()"></div>
+      <div class="pv-nome">Naiara Souza</div>
+      <div class="pv-cls">Mezzo-Soprano</div>
+      <div class="pv-ext">
+        <small>Extensão vocal</small>
+        <b>Lá2 — Si4</b>
+      </div>
+      <div class="pv-tags"><span>Doce</span><span>Aveludada</span><span>Pesada</span><span>Clara</span></div>
+      <p class="pv-desc">Voz de mezzo-soprano com timbre aveludado e presença marcante na região central. Combina doçura nos médios com peso e projeção nos agudos, característica de vozes versáteis para repertório gospel e MPB.</p>
+      <div class="pv-foot">Exemplo ilustrativo de perfil</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMO FUNCIONA ============ -->
+<section>
+  <div class="wrap mid">
+    <span class="tag eyebrow">Como funciona</span>
+    <h2>Quatro passos, <span class="xlight">sem sair de casa</span></h2>
+    <div class="steps">
+      <div class="stp rv"><div class="c">1</div><h4>Preencha o formulário</h4><p>Leva 2 minutos. Você conta sobre a sua música e os seus objetivos.</p></div>
+      <div class="stp rv"><div class="c">2</div><h4>Confirme no WhatsApp</h4><p>Suas respostas chegam prontas para nós. Enviamos o link de pagamento.</p></div>
+            <div class="stp rv"><div class="c">3</div><h4>Grave um trecho cantando</h4><p>Um vídeo ou áudio curto, do seu celular mesmo. É só isso que precisamos.</p></div>
+      <div class="stp rv"><div class="c">4</div><h4>Receba seu documento</h4><p>Em até 5 dias úteis, o laudo completo chega no seu e-mail e WhatsApp.</p></div>
+    </div>
+
+    <div class="video-box rv">
+      <div class="ic">🎥</div>
+      <div>
+        <h4>Como gravar o seu trecho</h4>
+        <p>Nada de estúdio, nada de equipamento. O celular na sua mão já é suficiente — o que importa é ouvir a sua voz com clareza.</p>
+        <ul>
+          <li>·&nbsp; Um trecho de <b>1 a 2 minutos</b> de qualquer música que você goste de cantar</li>
+          <li>·&nbsp; Em um ambiente <b>silencioso</b>, sem playback alto por cima da voz</li>
+          <li>·&nbsp; Pode ser <b>vídeo ou áudio</b> — o vídeo ajuda a analisar postura e respiração</li>
+          <li>·&nbsp; Se quiser, grave também sua nota <b>mais grave e mais aguda</b> confortáveis</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ANTES × DEPOIS ============ -->
+<section class="alt">
+  <div class="wrap mid">
+    <span class="tag eyebrow">A diferença</span>
+    <h2>Antes e depois <span class="xlight">de conhecer a própria voz</span></h2>
+    <div class="ba">
+      <div class="bac a rv">
+        <h4>✕ Sem o Perfil Vocal</h4>
+        <ul>
+          <li>✕&nbsp; Escolhe música pelo gosto e descobre o problema no palco</li>
+          <li>✕&nbsp; Canta no tom original e força o que não alcança</li>
+          <li>✕&nbsp; Termina rouco e acha que é normal</li>
+          <li>✕&nbsp; Faz exercícios aleatórios da internet</li>
+          <li>✕&nbsp; Não sabe explicar a própria voz para banda ou ministério</li>
+        </ul>
+      </div>
+      <div class="ba-ar">→</div>
+      <div class="bac d rv">
+        <h4>✓ Com o Perfil Vocal</h4>
+        <ul>
+          <li>✓&nbsp; Sabe exatamente quais músicas combinam com o seu timbre</li>
+          <li>✓&nbsp; Escolhe o tom certo antes de ensaiar</li>
+          <li>✓&nbsp; Canta dentro da tessitura confortável, sem desgaste</li>
+          <li>✓&nbsp; Treina com 3 exercícios feitos para a sua voz</li>
+          <li>✓&nbsp; Diz com segurança: "sou mezzo-soprano, minha extensão é Lá2 a Si4"</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALERIA ============ -->
+
+
+<!-- ============ DEPOIMENTOS ============ -->
+<section class="alt">
+  <div class="wrap mid">
+    <span class="tag eyebrow">Quem já descobriu</span>
+    <h2>Vozes que <span class="xlight">mudaram de lugar</span></h2>
+    <div class="depos">
+      <div class="dep rv">
+        <div class="st">★★★★★</div>
+        <p>"Cantava há oito anos na igreja e vivia rouca na segunda-feira. O laudo mostrou que eu estava cantando dois tons acima da minha tessitura. Mudei o tom e nunca mais fiquei sem voz."</p>
+        <div class="who">
+          <!-- 📷 IMAGEM · assets/depo-1.jpg · 200×200px -->
+          <div class="pf ph" data-ph=""><img src="assets/depo-1.jpg" alt="" onerror="this.remove()"></div>
+          <div><b>Marina Rocha</b><small>Caratinga / MG</small></div>
+        </div>
+      </div>
+      <div class="dep rv">
+        <div class="st">★★★★★</div>
+        <p>"Descobri que sou barítono, não tenor. Passei a vida inteira forçando agudo que nunca foi meu. A sensação de cantar no lugar certo não tem preço."</p>
+        <div class="who">
+          <!-- 📷 IMAGEM · assets/depo-2.jpg · 200×200px -->
+          <div class="pf ph" data-ph=""><img src="assets/depo-2.jpg" alt="" onerror="this.remove()"></div>
+          <div><b>Thiago Ferraz</b><small>Ipatinga / MG</small></div>
+        </div>
+      </div>
+      <div class="dep rv">
+        <div class="st">★★★★★</div>
+        <p>"Gravei um trecho no meu quarto, mandei no WhatsApp e em quatro dias recebi um documento completo sobre a minha voz. As cinco músicas sugeridas viraram meu repertório fixo."</p>
+        <div class="who">
+          <!-- 📷 IMAGEM · assets/depo-3.jpg · 200×200px -->
+          <div class="pf ph" data-ph=""><img src="assets/depo-3.jpg" alt="" onerror="this.remove()"></div>
+          <div><b>Camila Lemos</b><small>Belo Horizonte / MG</small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PARA QUEM ============ -->
+<section>
+  <div class="wrap mid">
+    <span class="tag eyebrow">Para quem é</span>
+    <h2>Feito para quem <span class="xlight">leva a voz a sério</span></h2>
+    <div class="who-g">
+      <div class="wc rv"><span class="e">⛪</span><h4>Canta na igreja</h4><p>E quer parar de forçar a voz para acompanhar o tom dos outros.</p></div>
+      <div class="wc rv"><span class="e">🎸</span><h4>Canta em banda</h4><p>Precisa saber em que tonalidade o repertório realmente funciona.</p></div>
+      <div class="wc rv"><span class="e">🤔</span><h4>Pensa em estudar canto</h4><p>Quer entender o ponto de partida antes de assumir qualquer compromisso.</p></div>
+      <div class="wc rv"><span class="e">🎚️</span><h4>Grava ou produz</h4><p>Precisa da extensão real para definir arranjos e tons com segurança.</p></div>
+      <div class="wc rv"><span class="e">😮‍💨</span><h4>Cansa ao cantar</h4><p>Pode estar cantando fora da tessitura confortável sem perceber.</p></div>
+      <div class="wc rv"><span class="e">🎁</span><h4>Quer presentear</h4><p>Um presente inesquecível para quem vive cantando pela casa.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PREÇO ============ -->
+<section class="alt">
+  <div class="wrap mid">
+    <span class="tag eyebrow">Investimento</span>
+    <h2>Menos que um jantar. <span class="xlight">Para a vida inteira.</span></h2>
+    <div class="price-box rv">
+      <div class="orb orb-a" style="width:300px;height:300px;top:-120px;right:-90px;opacity:.16"></div>
+      <div class="pb-badge">Perfil Vocal Completo</div>
+      <div class="pb-val"><sup>R$</sup>69,99</div>
+      <div class="pb-sub">Pagamento único · sem mensalidade</div>
+      <ul class="pb-list">
+        <li><b>✓</b> Análise da sua gravação por Sislene Paiva</li>
+        <li><b>✓</b> Documento personalizado com 7 análises</li>
+        <li><b>✓</b> Repertório e exercícios sob medida</li>
+        <li><b>✓</b> Entrega em até 5 dias úteis</li>
+        <li><b>✓</b> Sem precisar sair de casa, de qualquer lugar do Brasil</li>
+      </ul>
+      <a href="#formulario" class="btn btn-nude btn-full btn-lg">Quero meu Perfil Vocal</a>
+      <div class="upsell">🎁 <b>Bônus:</b> se depois você decidir estudar no Studio, os R$&nbsp;69,99 viram <b>desconto integral</b> na sua primeira mensalidade.</div>
+      <!-- 📷 IMAGEM · assets/selo-garantia.png · 300×300px · PNG transparente -->
+      <img class="selo" src="assets/selo-garantia.png" alt="Garantia de satisfação" onerror="this.style.display='none'">
+      <p class="pb-note">Pagamento via Pix ou cartão, por link enviado no WhatsApp.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FORMULÁRIO ============ -->
+<section id="formulario">
+  <div class="wrap mid">
+    <span class="tag eyebrow">Última etapa</span>
+    <h2>Conte sobre a sua voz</h2>
+    <p class="lead">Preencha abaixo e finalizamos no WhatsApp — com tudo o que você informou já em mãos.</p>
+
+    <form class="form-card" id="form" novalidate>
+      <div class="fgrid">
+
+        <div class="fld" id="w-nome">
+          <label for="nome">Nome completo *</label>
+          <input id="nome" placeholder="Como você gosta de ser chamado(a)">
+          <div class="emsg">Informe seu nome e sobrenome.</div>
+        </div>
+
+        <div class="f2">
+          <div class="fld" id="w-zap">
+            <label for="zap">WhatsApp *</label>
+            <input id="zap" inputmode="numeric" placeholder="(33) 99999-9999">
+            <div class="emsg">Informe um número válido com DDD.</div>
+          </div>
+          <div class="fld" id="w-email">
+            <label for="email">E-mail *</label>
+            <input id="email" type="email" placeholder="voce@email.com">
+            <div class="emsg">E-mail inválido.</div>
+          </div>
+        </div>
+
+        <div class="f2">
+          <div class="fld" id="w-cidade">
+            <label for="cidade">Cidade / UF *</label>
+            <input id="cidade" placeholder="Caratinga / MG">
+            <div class="emsg">Informe sua cidade e estado.</div>
+          </div>
+          <div class="fld">
+            <label for="idade">Idade</label>
+            <input id="idade" inputmode="numeric" maxlength="2" placeholder="Opcional">
+          </div>
+        </div>
+
+        <div class="fld" id="w-exp">
+          <label for="exp">Você já estudou canto? *</label>
+          <select id="exp">
+            <option value="">Selecione</option>
+            <option>Nunca estudei</option>
+            <option>Aprendi sozinho(a), informalmente</option>
+            <option>Estudei por menos de 1 ano</option>
+            <option>Estudei por mais de 1 ano</option>
+          </select>
+          <div class="emsg">Escolha uma opção.</div>
+        </div>
+
+        <div class="fld" id="w-estilos">
+          <label>Estilos que você ama cantar *</label>
+          <div class="chips" id="estilos"></div>
+          <p class="hint">Selecione quantos quiser.</p>
+          <div class="emsg">Selecione ao menos um estilo.</div>
+        </div>
+
+        <div class="fld">
+          <label>Onde você canta hoje</label>
+          <div class="chips" id="onde"></div>
+        </div>
+
+        <div class="fld" id="w-obj">
+          <label>O que você mais quer descobrir *</label>
+          <div class="chips" id="objetivos"></div>
+          <div class="emsg">Selecione ao menos uma opção.</div>
+        </div>
+
+        <div class="f2">
+          <div class="fld">
+            <label for="naipe">Como classificaria sua voz hoje?</label>
+            <select id="naipe">
+              <option>Não sei ainda</option><option>Soprano</option><option>Mezzo-soprano</option>
+              <option>Contralto</option><option>Tenor</option><option>Barítono</option><option>Baixo</option>
+            </select>
+          </div>
+          <div class="fld">
+            <label for="ref">Cantores que te inspiram</label>
+            <input id="ref" placeholder="Ex.: Elis Regina, Sam Smith">
+          </div>
+        </div>
+
+        <div class="fld">
+          <label for="desc">Como você descreveria sua voz hoje?</label>
+          <textarea id="desc" placeholder="Ex.: canso rápido no agudo, tenho dificuldade em músicas graves, acho minha voz fina demais..."></textarea>
+          <p class="hint">Quanto mais detalhes, mais precisa fica a análise.</p>
+        </div>
+
+        <div class="fld">
+          <label for="saude">Já sentiu algum incômodo vocal? <span style="font-weight:300;text-transform:none;letter-spacing:0">(opcional)</span></label>
+          <input id="saude" placeholder="Rouquidão, cansaço, refluxo, pigarro...">
+          <p class="hint">🔒 Informação tratada com sigilo e usada apenas na análise.</p>
+        </div>
+
+        <div class="fld">
+          <label for="origem">Como conheceu o Studio?</label>
+          <select id="origem">
+            <option>Instagram</option><option>Indicação de amigo</option>
+            <option>Google</option><option>Já conheço a Sislene</option><option>Outro</option>
+          </select>
+        </div>
+
+        <div class="form-sum">
+          <span>Perfil Vocal Completo</span>
+          <b>R$ 69,99</b>
+        </div>
+
+        <div id="w-lgpd">
+          <label class="chk">
+            <input type="checkbox" id="lgpd">
+            <span>Autorizo o <b>Studio Sislene Paiva</b> a entrar em contato pelo WhatsApp e a tratar meus dados conforme a Política de Privacidade (LGPD).</span>
+          </label>
+          <div class="emsg">É necessário autorizar para continuar.</div>
+        </div>
+
+        <button type="submit" class="btn btn-zap btn-full btn-lg" id="btn-enviar">
+          Enviar e continuar no WhatsApp
+        </button>
+        <p class="hint" style="text-align:center">Você será levado ao WhatsApp com suas respostas já preenchidas. Lá enviamos o link de pagamento e você grava o seu trecho.</p>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="alt">
+  <div class="wrap mid">
+    <span class="tag eyebrow">Dúvidas</span>
+    <h2>Perguntas que <span class="xlight">todo mundo faz</span></h2>
+    <div class="faq">
+      <details class="fq"><summary>Preciso ir até o estúdio?</summary><p>Não. Todo o processo acontece pelo WhatsApp — você grava um trecho cantando com o próprio celular e nós analisamos. Funciona para qualquer cidade do Brasil.</p></details>
+      <details class="fq"><summary>Que música devo cantar na gravação?</summary><p>Qualquer uma que você goste e já conheça bem. Um trecho de 1 a 2 minutos é suficiente. O importante é cantar naturalmente, do jeito que você canta sempre.</p></details>
+      <details class="fq"><summary>Preciso de microfone ou equipamento?</summary><p>Não. O microfone do celular resolve. Só peça silêncio ao redor e evite colocar playback alto por cima da sua voz.</p></details>
+      <details class="fq"><summary>Nunca estudei canto. Vale a pena?</summary><p>Vale especialmente nesse caso. É justamente quem nunca estudou que mais canta fora da própria tessitura sem saber — e o laudo mostra exatamente onde a sua voz funciona melhor.</p></details>
+      <details class="fq"><summary>Em quanto tempo recebo?</summary><p>Em até 5 dias úteis depois que você envia a gravação. O documento chega no e-mail e no WhatsApp.</p></details>
+      <details class="fq"><summary>Sou obrigado a fazer aulas depois?</summary><p>De jeito nenhum. É um produto avulso, pagamento único, sem mensalidade. Se você quiser estudar depois, os R$ 69,99 viram desconto na primeira mensalidade.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL ============ -->
+<section class="final">
+  <!-- 📷 IMAGEM · assets/cta-final.jpg · 1920×1000px · microfone ou pessoa cantando, tom escuro -->
+  <div class="final-img"><img src="assets/cta-final.jpg" alt="" onerror="this.parentElement.style.display='none'"></div>
+  <div class="orb orb-a"></div><div class="orb orb-b"></div><div class="grain"></div>
+  <div class="wrap">
+    <h2>Sua voz já existe.<br><span class="xlight">Falta você conhecê-la.</span></h2>
+    <p class="lead">Um documento que você vai consultar pelo resto da sua vida como cantor. Por R$ 69,99, uma única vez.</p>
+    <a href="#formulario" class="btn btn-nude btn-lg">Quero meu Perfil Vocal</a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <!-- 📷 IMAGEM · assets/logo.png · mesma logo -->
+    <img class="f-logo" src="assets/logo.png" alt="Studio Sislene Paiva" onerror="this.style.display='none'">
+    <p>© <span id="ano"></span> Studio Sislene Paiva · Caratinga / MG</p>
+    <p style="font-weight:200;font-size:12px;margin-top:6px;opacity:.7">
+      Perfil Vocal Completo · Produto avulso · Pagamento único de R$ 69,99
+    </p>
+    <a class="sig" href="#" onclick="return false">
+      <span class="wrb">WRB</span>
+      <span><em>Desenvolvido por</em><b>Willian Ramos Borges</b></span>
+    </a>
+  </div>
+</footer>
+
+<a class="zap-float" id="zapFloat" href="#" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6c.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+</a>
+
+<div class="sticky">
+  <div class="p">R$ 69,99<small>Perfil Vocal Completo</small></div>
+  <a href="#formulario" class="btn btn-zap">Quero o meu</a>
+</div>
+
+<div id="toasts"></div>
+
+<script>
+/* ===================== CONFIGURAÇÃO ===================== */
+const WHATSAPP = '5533998378382';   // ⚠️ TROCAR pelo número real do Studio
+
+const ESTILOS = ['Gospel','MPB','Pop','Sertanejo','Rock','Worship','Samba','Jazz','R&B','Forró','Bossa Nova','Ópera'];
+const ONDE    = ['Igreja','Banda','Eventos','Karaokê','Em casa','Redes sociais','Ainda não canto em público'];
+const OBJETIVOS = [
+  'Qual é o meu naipe','Até onde vai minha extensão','Por que canso ao cantar',
+  'Quais músicas combinam comigo','Em que tom devo cantar','Se vale a pena estudar canto'
+];
+
+/* ===================== HELPERS ===================== */
+const $ = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+const sel = { estilos: [], onde: [], objetivos: [] };
+
+function toast(msg, sub, tipo) {
+  const el = document.createElement('div');
+  el.className = 'toast' + (tipo === 'err' ? ' err' : '');
+  el.innerHTML = `<b>${msg}</b><small>${sub}</small>`;
+  $('#toasts').appendChild(el);
+  setTimeout(() => el.remove(), 4200);
+}
+
+function chips(alvo, itens, chave) {
+  $(alvo).innerHTML = itens.map(v => `<span class="chip" data-v="${v}">${v}</span>`).join('');
+  $$(alvo + ' .chip').forEach(c => c.onclick = () => {
+    c.classList.toggle('on');
+    const arr = sel[chave], v = c.dataset.v;
+    arr.includes(v) ? arr.splice(arr.indexOf(v), 1) : arr.push(v);
+    document.getElementById('w-' + (chave === 'objetivos' ? 'obj' : chave))?.classList.remove('err');
+  });
+}
+
+/* ===================== INICIALIZAÇÃO ===================== */
+$('#ano').textContent = new Date().getFullYear();
+chips('#estilos', ESTILOS, 'estilos');
+chips('#onde', ONDE, 'onde');
+chips('#objetivos', OBJETIVOS, 'objetivos');
+
+$('#zapFloat').href = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent('Olá! Tenho interesse no Perfil Vocal Completo (R$ 69,99). 🎶')}`;
+
+addEventListener('scroll', () => $('#hd').classList.toggle('stuck', scrollY > 40));
+
+const io = new IntersectionObserver(
+  es => es.forEach(e => e.isIntersecting && e.target.classList.add('in')),
+  { threshold: .12 }
+);
+$$('.rv').forEach(e => io.observe(e));
+
+/* ===================== CONTADOR DE 72H ===================== */
+(function () {
+  const KEY = 'ssp_deadline';
+  let fim = localStorage.getItem(KEY);
+  if (!fim) { fim = Date.now() + 72 * 3600 * 1000; localStorage.setItem(KEY, fim); }
+  const el = $('#cd');
+  const tick = () => {
+    let s = Math.floor((fim - Date.now()) / 1000);
+    if (s <= 0) { el.textContent = '00:00:00'; return; }
+    const h = String(Math.floor(s / 3600)).padStart(2, '0');
+    const m = String(Math.floor(s % 3600 / 60)).padStart(2, '0');
+    const g = String(s % 60).padStart(2, '0');
+    el.textContent = `${h}:${m}:${g}`;
+  };
+  tick(); setInterval(tick, 1000);
+})();
+
+/* ===================== MÁSCARAS ===================== */
+$('#zap').oninput = e => {
+  e.target.value = e.target.value.replace(/\D/g, '').slice(0, 11)
+    .replace(/(\d{2})(\d)/, '($1) $2').replace(/(\d{5})(\d)/, '$1-$2');
+};
+$('#idade').oninput = e => e.target.value = e.target.value.replace(/\D/g, '');
+
+/* ===================== VALIDAÇÃO ===================== */
+const marcar = (id, ok) => { document.getElementById(id).classList.toggle('err', !ok); return ok; };
+
+function validar() {
+  let ok = true;
+  ok = marcar('w-nome', $('#nome').value.trim().split(/\s+/).length >= 2) && ok;
+  ok = marcar('w-zap', $('#zap').value.replace(/\D/g, '').length >= 10) && ok;
+  ok = marcar('w-email', /^[^@\s]+@[^@\s]+\.[a-z]{2,}$/i.test($('#email').value)) && ok;
+  ok = marcar('w-cidade', $('#cidade').value.trim().length >= 3) && ok;
+  ok = marcar('w-exp', !!$('#exp').value) && ok;
+  ok = marcar('w-estilos', sel.estilos.length > 0) && ok;
+  ok = marcar('w-obj', sel.objetivos.length > 0) && ok;
+  ok = marcar('w-lgpd', $('#lgpd').checked) && ok;
+
+  if (!ok) {
+    $('.err')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    toast('Revise o formulário', 'Alguns campos obrigatórios estão incompletos.', 'err');
+  }
+  return ok;
+}
+
+/* ===================== MENSAGEM DO WHATSAPP ===================== */
+function montarMensagem() {
+  const v = id => $('#' + id).value.trim();
+  const linha = (r, val) => val ? `*${r}:* ${val}\n` : '';
+
+  let m = '🎤 *PERFIL VOCAL COMPLETO — R$ 69,99*\n_Solicitação enviada pelo site_\n';
+  m += '━━━━━━━━━━━━━━━━━━━\n\n';
+
+  m += '👤 *DADOS PESSOAIS*\n';
+  m += linha('Nome', v('nome')) + linha('WhatsApp', v('zap')) + linha('E-mail', v('email'));
+  m += linha('Cidade', v('cidade')) + linha('Idade', v('idade'));
+
+  m += '\n🎵 *PERFIL MUSICAL*\n';
+  m += linha('Experiência', v('exp'));
+  m += linha('Estilos', sel.estilos.join(', '));
+  m += linha('Onde canta', sel.onde.join(', '));
+  m += linha('Quer descobrir', sel.objetivos.join(' · '));
+  m += linha('Naipe percebido', v('naipe')) + linha('Referências', v('ref'));
+
+  if (v('desc')) m += `\n🗣️ *COMO DESCREVE A VOZ*\n_${v('desc')}_\n`;
+  if (v('saude')) m += `\n⚕️ *INCÔMODOS VOCAIS*\n${v('saude')}\n`;
+
+  m += '\n📌 *ORIGEM*\n' + linha('Conheceu por', v('origem'));
+  m += '\n━━━━━━━━━━━━━━━━━━━\n';
+  m += '✅ Autorizou contato e tratamento de dados (LGPD)\n';
+  m += `🕐 Enviado em ${new Date().toLocaleString('pt-BR', { dateStyle: 'short', timeStyle: 'short' })}\n\n`;
+  m += 'Olá! Quero contratar meu Perfil Vocal Completo. 🎶';
+
+  return m;
+}
+
+/* ===================== ENVIO ===================== */
+$('#form').addEventListener('submit', e => {
+  e.preventDefault();
+  if (!validar()) return;
+
+  const btn = $('#btn-enviar');
+  btn.disabled = true;
+  btn.textContent = 'Abrindo o WhatsApp...';
+
+  try {
+    const lista = JSON.parse(localStorage.getItem('ssp_perfis') || '[]');
+    lista.push({
+      nome: $('#nome').value, zap: $('#zap').value, email: $('#email').value,
+      cidade: $('#cidade').value, idade: $('#idade').value, exp: $('#exp').value,
+      estilos: sel.estilos, onde: sel.onde, objetivos: sel.objetivos,
+      naipe: $('#naipe').value, ref: $('#ref').value, desc: $('#desc').value,
+      saude: $('#saude').value, origem: $('#origem').value,
+      enviadoEm: new Date().toISOString()
+    });
+    localStorage.setItem('ssp_perfis', JSON.stringify(lista));
+  } catch (_) {}
+
+  window.open(`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(montarMensagem())}`, '_blank');
+  toast('Perfeito! 🎉', 'Continue a conversa no WhatsApp para finalizar.');
+
+  setTimeout(() => { btn.disabled = false; btn.textContent = 'Reabrir o WhatsApp'; }, 2500);
+});
+</script>
+</body>
+</html>
